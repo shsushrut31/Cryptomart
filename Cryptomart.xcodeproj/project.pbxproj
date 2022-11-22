@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A64305A8292D4E3E00CA3FD6 /* CryptomartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64305A7292D4E3E00CA3FD6 /* CryptomartApp.swift */; };
+		A64305AA292D4E3E00CA3FD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64305A9292D4E3E00CA3FD6 /* ContentView.swift */; };
+		A64305AC292D4E3F00CA3FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64305AB292D4E3F00CA3FD6 /* Assets.xcassets */; };
+		A64305AF292D4E3F00CA3FD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64305AE292D4E3F00CA3FD6 /* Preview Assets.xcassets */; };
+		A64305B9292D4E3F00CA3FD6 /* CryptomartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64305B8292D4E3F00CA3FD6 /* CryptomartTests.swift */; };
+		A64305C3292D4E3F00CA3FD6 /* CryptomartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64305C2292D4E3F00CA3FD6 /* CryptomartUITests.swift */; };
+		A64305C5292D4E3F00CA3FD6 /* CryptomartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64305C4292D4E3F00CA3FD6 /* CryptomartUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A64305B5292D4E3F00CA3FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A643059C292D4E3E00CA3FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A64305A3292D4E3E00CA3FD6;
+			remoteInfo = Cryptomart;
+		};
+		A64305BF292D4E3F00CA3FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A643059C292D4E3E00CA3FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A64305A3292D4E3E00CA3FD6;
+			remoteInfo = Cryptomart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A64305A4292D4E3E00CA3FD6 /* Cryptomart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cryptomart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64305A7292D4E3E00CA3FD6 /* CryptomartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptomartApp.swift; sourceTree = "<group>"; };
+		A64305A9292D4E3E00CA3FD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A64305AB292D4E3F00CA3FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A64305AE292D4E3F00CA3FD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A64305B4292D4E3F00CA3FD6 /* CryptomartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptomartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64305B8292D4E3F00CA3FD6 /* CryptomartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptomartTests.swift; sourceTree = "<group>"; };
+		A64305BE292D4E3F00CA3FD6 /* CryptomartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptomartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64305C2292D4E3F00CA3FD6 /* CryptomartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptomartUITests.swift; sourceTree = "<group>"; };
+		A64305C4292D4E3F00CA3FD6 /* CryptomartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptomartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A64305A1292D4E3E00CA3FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64305B1292D4E3F00CA3FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64305BB292D4E3F00CA3FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A643059B292D4E3E00CA3FD6 = {
+			isa = PBXGroup;
+			children = (
+				A64305A6292D4E3E00CA3FD6 /* Cryptomart */,
+				A64305B7292D4E3F00CA3FD6 /* CryptomartTests */,
+				A64305C1292D4E3F00CA3FD6 /* CryptomartUITests */,
+				A64305A5292D4E3E00CA3FD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A64305A5292D4E3E00CA3FD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A64305A4292D4E3E00CA3FD6 /* Cryptomart.app */,
+				A64305B4292D4E3F00CA3FD6 /* CryptomartTests.xctest */,
+				A64305BE292D4E3F00CA3FD6 /* CryptomartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A64305A6292D4E3E00CA3FD6 /* Cryptomart */ = {
+			isa = PBXGroup;
+			children = (
+				A64305A7292D4E3E00CA3FD6 /* CryptomartApp.swift */,
+				A64305A9292D4E3E00CA3FD6 /* ContentView.swift */,
+				A64305AB292D4E3F00CA3FD6 /* Assets.xcassets */,
+				A64305AD292D4E3F00CA3FD6 /* Preview Content */,
+			);
+			path = Cryptomart;
+			sourceTree = "<group>";
+		};
+		A64305AD292D4E3F00CA3FD6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A64305AE292D4E3F00CA3FD6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A64305B7292D4E3F00CA3FD6 /* CryptomartTests */ = {
+			isa = PBXGroup;
+			children = (
+				A64305B8292D4E3F00CA3FD6 /* CryptomartTests.swift */,
+			);
+			path = CryptomartTests;
+			sourceTree = "<group>";
+		};
+		A64305C1292D4E3F00CA3FD6 /* CryptomartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A64305C2292D4E3F00CA3FD6 /* CryptomartUITests.swift */,
+				A64305C4292D4E3F00CA3FD6 /* CryptomartUITestsLaunchTests.swift */,
+			);
+			path = CryptomartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A64305A3292D4E3E00CA3FD6 /* Cryptomart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64305C8292D4E3F00CA3FD6 /* Build configuration list for PBXNativeTarget "Cryptomart" */;
+			buildPhases = (
+				A64305A0292D4E3E00CA3FD6 /* Sources */,
+				A64305A1292D4E3E00CA3FD6 /* Frameworks */,
+				A64305A2292D4E3E00CA3FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cryptomart;
+			productName = Cryptomart;
+			productReference = A64305A4292D4E3E00CA3FD6 /* Cryptomart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A64305B3292D4E3F00CA3FD6 /* CryptomartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64305CB292D4E3F00CA3FD6 /* Build configuration list for PBXNativeTarget "CryptomartTests" */;
+			buildPhases = (
+				A64305B0292D4E3F00CA3FD6 /* Sources */,
+				A64305B1292D4E3F00CA3FD6 /* Frameworks */,
+				A64305B2292D4E3F00CA3FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A64305B6292D4E3F00CA3FD6 /* PBXTargetDependency */,
+			);
+			name = CryptomartTests;
+			productName = CryptomartTests;
+			productReference = A64305B4292D4E3F00CA3FD6 /* CryptomartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A64305BD292D4E3F00CA3FD6 /* CryptomartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64305CE292D4E3F00CA3FD6 /* Build configuration list for PBXNativeTarget "CryptomartUITests" */;
+			buildPhases = (
+				A64305BA292D4E3F00CA3FD6 /* Sources */,
+				A64305BB292D4E3F00CA3FD6 /* Frameworks */,
+				A64305BC292D4E3F00CA3FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A64305C0292D4E3F00CA3FD6 /* PBXTargetDependency */,
+			);
+			name = CryptomartUITests;
+			productName = CryptomartUITests;
+			productReference = A64305BE292D4E3F00CA3FD6 /* CryptomartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A643059C292D4E3E00CA3FD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A64305A3292D4E3E00CA3FD6 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					A64305B3292D4E3F00CA3FD6 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = A64305A3292D4E3E00CA3FD6;
+					};
+					A64305BD292D4E3F00CA3FD6 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = A64305A3292D4E3E00CA3FD6;
+					};
+				};
+			};
+			buildConfigurationList = A643059F292D4E3E00CA3FD6 /* Build configuration list for PBXProject "Cryptomart" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A643059B292D4E3E00CA3FD6;
+			productRefGroup = A64305A5292D4E3E00CA3FD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A64305A3292D4E3E00CA3FD6 /* Cryptomart */,
+				A64305B3292D4E3F00CA3FD6 /* CryptomartTests */,
+				A64305BD292D4E3F00CA3FD6 /* CryptomartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A64305A2292D4E3E00CA3FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64305AF292D4E3F00CA3FD6 /* Preview Assets.xcassets in Resources */,
+				A64305AC292D4E3F00CA3FD6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64305B2292D4E3F00CA3FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64305BC292D4E3F00CA3FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A64305A0292D4E3E00CA3FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64305AA292D4E3E00CA3FD6 /* ContentView.swift in Sources */,
+				A64305A8292D4E3E00CA3FD6 /* CryptomartApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64305B0292D4E3F00CA3FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64305B9292D4E3F00CA3FD6 /* CryptomartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64305BA292D4E3F00CA3FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64305C3292D4E3F00CA3FD6 /* CryptomartUITests.swift in Sources */,
+				A64305C5292D4E3F00CA3FD6 /* CryptomartUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A64305B6292D4E3F00CA3FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A64305A3292D4E3E00CA3FD6 /* Cryptomart */;
+			targetProxy = A64305B5292D4E3F00CA3FD6 /* PBXContainerItemProxy */;
+		};
+		A64305C0292D4E3F00CA3FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A64305A3292D4E3E00CA3FD6 /* Cryptomart */;
+			targetProxy = A64305BF292D4E3F00CA3FD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A64305C6292D4E3F00CA3FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A64305C7292D4E3F00CA3FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A64305C9292D4E3F00CA3FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cryptomart/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssdev.Cryptomart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A64305CA292D4E3F00CA3FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cryptomart/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssdev.Cryptomart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A64305CC292D4E3F00CA3FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssdev.CryptomartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cryptomart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cryptomart";
+			};
+			name = Debug;
+		};
+		A64305CD292D4E3F00CA3FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssdev.CryptomartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cryptomart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cryptomart";
+			};
+			name = Release;
+		};
+		A64305CF292D4E3F00CA3FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssdev.CryptomartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cryptomart;
+			};
+			name = Debug;
+		};
+		A64305D0292D4E3F00CA3FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssdev.CryptomartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cryptomart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A643059F292D4E3E00CA3FD6 /* Build configuration list for PBXProject "Cryptomart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64305C6292D4E3F00CA3FD6 /* Debug */,
+				A64305C7292D4E3F00CA3FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A64305C8292D4E3F00CA3FD6 /* Build configuration list for PBXNativeTarget "Cryptomart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64305C9292D4E3F00CA3FD6 /* Debug */,
+				A64305CA292D4E3F00CA3FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A64305CB292D4E3F00CA3FD6 /* Build configuration list for PBXNativeTarget "CryptomartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64305CC292D4E3F00CA3FD6 /* Debug */,
+				A64305CD292D4E3F00CA3FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A64305CE292D4E3F00CA3FD6 /* Build configuration list for PBXNativeTarget "CryptomartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64305CF292D4E3F00CA3FD6 /* Debug */,
+				A64305D0292D4E3F00CA3FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A643059C292D4E3E00CA3FD6 /* Project object */;
+}
