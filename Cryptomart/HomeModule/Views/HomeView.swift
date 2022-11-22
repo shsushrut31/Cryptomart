@@ -12,12 +12,10 @@ struct HomeView: View {
         ZStack {
             Color.DefaultTheme.backgroundColor
                 .ignoresSafeArea()
-            VStack {
-                Text("Hello World")
-                    .foregroundColor(Color.DefaultTheme.accentColor)
-                    .font(.largeTitle)
-                Text("Secondary Text")
-                    .foregroundColor(Color.DefaultTheme.grayColor)
+            List {
+                StockTableRowView()
+                StockTableRowView()
+                StockTableRowView()
             }
         }
     }

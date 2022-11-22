@@ -16,6 +16,8 @@
 		A64305C5292D4E3F00CA3FD6 /* CryptomartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64305C4292D4E3F00CA3FD6 /* CryptomartUITestsLaunchTests.swift */; };
 		A64305D4292D572000CA3FD6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64305D3292D572000CA3FD6 /* Theme.swift */; };
 		A64305DA292D585600CA3FD6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64305D9292D585600CA3FD6 /* HomeView.swift */; };
+		A64305DF292D652C00CA3FD6 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64305DE292D652C00CA3FD6 /* PortfolioView.swift */; };
+		A64305E5292D69AD00CA3FD6 /* StockTableRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64305E4292D69AD00CA3FD6 /* StockTableRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		A64305C4292D4E3F00CA3FD6 /* CryptomartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptomartUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A64305D3292D572000CA3FD6 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		A64305D9292D585600CA3FD6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A64305DD292D5FCB00CA3FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A64305DE292D652C00CA3FD6 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		A64305E4292D69AD00CA3FD6 /* StockTableRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTableRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +103,9 @@
 		A64305A6292D4E3E00CA3FD6 /* Cryptomart */ = {
 			isa = PBXGroup;
 			children = (
-				A64305D8292D584100CA3FD6 /* Views */,
+				A64305E2292D693F00CA3FD6 /* PortfolioModule */,
+				A64305E0292D68EB00CA3FD6 /* HomeModule */,
+				A64305DD292D5FCB00CA3FD6 /* Info.plist */,
 				A64305D2292D570C00CA3FD6 /* Extensions */,
 				A64305D1292D56C900CA3FD6 /* Base */,
 				A64305AD292D4E3F00CA3FD6 /* Preview Content */,
@@ -149,10 +156,35 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		A64305D8292D584100CA3FD6 /* Views */ = {
+		A64305E0292D68EB00CA3FD6 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				A64305E1292D68F800CA3FD6 /* Views */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		A64305E1292D68F800CA3FD6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				A64305D9292D585600CA3FD6 /* HomeView.swift */,
+				A64305E4292D69AD00CA3FD6 /* StockTableRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A64305E2292D693F00CA3FD6 /* PortfolioModule */ = {
+			isa = PBXGroup;
+			children = (
+				A64305E3292D694A00CA3FD6 /* Views */,
+			);
+			path = PortfolioModule;
+			sourceTree = "<group>";
+		};
+		A64305E3292D694A00CA3FD6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A64305DE292D652C00CA3FD6 /* PortfolioView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -290,7 +322,9 @@
 				A64305D4292D572000CA3FD6 /* Theme.swift in Sources */,
 				A64305DA292D585600CA3FD6 /* HomeView.swift in Sources */,
 				A64305AA292D4E3E00CA3FD6 /* ContentView.swift in Sources */,
+				A64305E5292D69AD00CA3FD6 /* StockTableRowView.swift in Sources */,
 				A64305A8292D4E3E00CA3FD6 /* CryptomartApp.swift in Sources */,
+				A64305DF292D652C00CA3FD6 /* PortfolioView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,9 +485,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Cryptomart/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cryptomart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -481,9 +515,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Cryptomart/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cryptomart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -14,6 +14,10 @@ struct Theme {
     let backgroundColor = Color("AppBackground")
     let grayColor = Color("AppGray")
     let secondaryTextColor = Color("SecondaryText")
+    let profitTextColor = Color("ProfitText")
+    let profitBackgroundColor = Color("ProfitBackground")
+    let lossTextColor = Color("LossText")
+    let lossBackgroundColor = Color("LossBackground")
 }
 
 extension Color {

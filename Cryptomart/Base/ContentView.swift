@@ -9,7 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HomeView()
+        TabView {
+            HomeView()
+                .tabItem {
+                    Label {
+                        Text("Home")
+                    } icon: {
+                        Image(systemName: "house")
+                    }
+                }
+            
+            PortfolioView()
+                .tabItem {
+                    Label {
+                        Text("My Portfolio")
+                    } icon: {
+                        Image(systemName: "dollarsign.arrow.circlepath")
+                    }
+                }
+        }
     }
 }
 
