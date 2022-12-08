@@ -32,6 +32,7 @@ struct HomeView: View {
             }.navigationTitle("Live Prices")
         }
         .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search by name or symbol")
+        .autocorrectionDisabled()
     }
 }
 
