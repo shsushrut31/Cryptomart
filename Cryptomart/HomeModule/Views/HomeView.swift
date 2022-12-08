@@ -9,13 +9,21 @@ import SwiftUI
 
 struct HomeView: View {
     @EnvironmentObject private var vm: HomeViewModel
+    @State private var searchText = ""
+    var searchResults: [Coin] {
+            if searchText.isEmpty {
+                return vm.allCoins
+            } else {
+                return vm.allCoins.filter { $0.name.lowercased().contains(searchText.lowercased()) || $0.symbol.lowercased().contains(searchText.lowercased()) }
+            }
+        }
     var body: some View {
         NavigationView {
             ZStack {
                 Color.DefaultTheme.backgroundColor
                     .ignoresSafeArea()
                 List {
-                    ForEach(vm.allCoins) { coin in
+                    ForEach(searchResults) { coin in
                         StockTableRowView(coin: coin)
                             .padding(.leading, -15)
                             .padding(.trailing, -10)
@@ -23,6 +31,7 @@ struct HomeView: View {
                 }.scrollIndicators(.hidden)
             }.navigationTitle("Live Prices")
         }
+        .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search by name or symbol")
     }
 }
 
