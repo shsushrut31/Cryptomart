@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject private var vm = HomeViewModel()
+    
     var body: some View {
         TabView {
             HomeView()
@@ -28,6 +31,7 @@ struct ContentView: View {
                     }
                 }
         }
+        .environmentObject(vm)
     }
 }
 
