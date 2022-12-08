@@ -24,9 +24,12 @@ struct HomeView: View {
                     .ignoresSafeArea()
                 List {
                     ForEach(searchResults) { coin in
-                        StockTableRowView(coin: coin)
-                            .padding(.leading, -15)
-                            .padding(.trailing, -10)
+                        NavigationLink( destination:
+                                            Text(coin.name)
+                        ) {
+                            StockTableRowView(coin: coin)
+                                .padding(.leading, -15)
+                        }
                     }
                 }.scrollIndicators(.hidden)
             }.navigationTitle("Live Prices")
