@@ -33,9 +33,7 @@ struct StockTableRowView_Previews: PreviewProvider {
 
 extension StockTableRowView {
     private var coinImage: some View {
-        Image(systemName: "bitcoinsign.circle.fill")
-            .resizable()
-            .background(.green)
+        CoinImageView(coin: coin)
             .frame(width:30, height: 30)
             .clipShape(Circle())
             .padding(.leading, 5)
