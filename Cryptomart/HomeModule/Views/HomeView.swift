@@ -25,7 +25,7 @@ struct HomeView: View {
                 List {
                     ForEach(searchResults) { coin in
                         NavigationLink( destination:
-                                            Text(coin.name)
+                                            CoinDetailsView.init(coin: coin)
                         ) {
                             StockTableRowView(coin: coin)
                                 .padding(.leading, -15)

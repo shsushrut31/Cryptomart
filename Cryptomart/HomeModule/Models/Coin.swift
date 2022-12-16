@@ -116,4 +116,26 @@ struct Coin: Decodable, Identifiable {
 
 struct SparklineIn7D: Decodable {
     let price: [Double]?
+    
+    var chartItems: [ChartItem] {
+        var item: [ChartItem] = []
+        price?.enumerated().forEach({ (index, value) in
+            item.append(ChartItem(price: value, index: index))
+        })
+        return item
+    }
+    var minValue: Double {
+        return price?.min() ?? 0.0
+    }
+    var maxValue: Double {
+        return price?.max() ?? 0.0
+    }
+}
+
+struct ChartItem: Hashable, Identifiable {
+    var id = UUID()
+    
+    let price: Double
+    let index: Int
+    var animate: Bool = false
 }
