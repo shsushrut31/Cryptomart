@@ -11,5 +11,10 @@ extension Double {
     var roundedToTwoDecimals: String {
         return String(format: "%.2f", self)
     }
-    
+    var toBillions: String {
+        return "\(String(format: "%.2f", self/1000000000))B"
+    }
+    var toMillions: String {
+        return "\(String(format: "%.2f", self/1000000))M"
+    }
 }

@@ -18,10 +18,10 @@ struct HomeView: View {
             }
         }
     var body: some View {
-        NavigationView {
-            ZStack {
-                Color.DefaultTheme.backgroundColor
-                    .ignoresSafeArea()
+        NavigationStack {
+//            ZStack {
+//                Color.DefaultTheme.backgroundColor
+//                    .ignoresSafeArea()
                 List {
                     ForEach(searchResults) { coin in
                         NavigationLink( destination:
@@ -31,11 +31,13 @@ struct HomeView: View {
                                 .padding(.leading, -15)
                         }
                     }
-                }.scrollIndicators(.hidden)
-            }.navigationTitle("Live Prices")
+                }
+                .scrollIndicators(.hidden)
+                    .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search by name or symbol")
+                    .autocorrectionDisabled()
+                    .navigationTitle("Live Prices")
+//            }.navigationTitle("Live Prices")
         }
-        .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search by name or symbol")
-        .autocorrectionDisabled()
     }
 }
 
